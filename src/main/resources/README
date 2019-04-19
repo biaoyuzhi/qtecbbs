@@ -1,0 +1,9 @@
+一、本项目启动方式：
+  第一种，直接导入IDEA，运行SpringBoot框架的启动项QtecbbsApplication.java即可。
+  第二种，导出bbs-1.0.jar包，将src文件夹复制后放在bbs-1.0.jar文件的同一路径下，再运行命令行java -jar bbs-1.0.jar即可。
+二、本项目最初是直接复制的https://gitee.com/tc608/redbbs项目，原项目后端是基于redkale框架实现的，本项目改成了常用的SpringBoot框架，
+在保持前端布局不变的情况下，前端数据渲染依然使用JFinal框架的enjoy模板。
+本项目的图片上传功能未能实现。主要配置项在cn.qtec.bbs.config.AppJFConfig.java中，包括数据库的相关配置等。
+cn.qtec.bbs.kit包下为时间格式转换工具类EJ.java和用户密码MD5加密与校验的工具类CommonUtils.java
+三、本项目使用的主要环境如下：
+SpringBoot-2.1.1.RELEASE，jdk-1.8，lombok插件，jfinal-3.5，enjoy-3.5
